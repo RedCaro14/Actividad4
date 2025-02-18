@@ -1,0 +1,40 @@
+   /* header 
+   ===================================================================00 */
+
+   header {
+    background-color: #4444ae;
+    color: white;
+    align-items: center;
+
+   }
+
+   .arriba {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    align-items: center;
+   }
+
+   .Logo {
+    width: 150px;
+    height: auto;
+   }
+
+   .menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 500px;
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: 20px;
+   }
+
+   .button-login {
+    color: #7a7a7a;
+    border-radius: 8px;
+
+
+   }
