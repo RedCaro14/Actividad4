@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aerorepública - Inicia sesión</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- no olvidar enlazar el archivo de estilos -->
-    <link rel="stylesheet" href="styles.css">
+    <!-- no olvidar enlazar el archivo de estilos - ajustado por Tina -->
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header>
-        <img class="Logo" src="img/AEROREPUBLICA.png" alt="Logo-Aerorepublica">
+      
+        <div class="arriba">
+            <img class="Logo" src="img/AEROREPUBLICA.png" alt="Logo-Aerorepublica">
         <h1>Aerorepublica</h1>
-        <div>
-            <nav id="Button-Login">
-                <button>Iniciar sesión</button>
-            </nav>
+            
+                <button class="button-login">Iniciar sesión</button>
+
         </div>
         <div>
             <nav>
-                <ul class="NavBar">
-                    <li>Inicio</li>
-                    <li>Servicios</li>
-                    <li>Quienes somos</li>
-                    <li>contacto</li>
+                <ul class="menu">
+                    <li><a href="http://">Inicio</a></li>
+                    <li><a href="http://">Servicios</a></li>
+                    <li><a href="http://">Quienes somos</a></li>
+                    <li><a href="http://">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -43,7 +44,7 @@
                 <label for="password" class="form-label">Contraseña</label>
                 <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
             </div>
-            <button type="submit" class="btn btn-primary w-100">Iniciar sesión</button>
+            <button type="submit" class="btn w-100">Iniciar sesión</button>
         </form>
     </div>
 

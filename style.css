@@ -1,0 +1,61 @@
+   /* header 
+   =================================================================== */
+
+   header {
+    background-color: #4444ae;
+    color: white;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+   }
+
+   .arriba {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    align-items: center;
+   }
+
+   .Logo {
+    width: 150px;
+    height: auto;
+   }
+
+   .menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 490px;
+    padding-right: 490px;
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: 20px;
+   }
+
+   .button-login {
+    color: #7a7a7a;
+    border-radius: 8px;
+   }
+
+   .login-container {
+      max-width: 400px;       /* El contenedor tiene un ancho máximo de 400px */
+      margin: 50px auto;      /* Esto centra el formulario en la página (automáticamente a la izquierda y derecha) */
+      padding: 30px;          /* Espaciado dentro del contenedor para darle "aire" */
+      background-color: white; /* Fondo blanco para la "cajita" */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+      border-radius: 8px;     /* Bordes redondeados */
+  }
+
+  .btn {
+   background-color: #4444ae;
+   color:aliceblue;
+  }
+
+  a {
+   color:aliceblue;
+  }
+
+  body {
+   background-color: #cecece;
+  }
